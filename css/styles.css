@@ -67,7 +67,7 @@ a {
 
 .header__titleContainer {
     width: 85%;
-    max-width: 900px;
+    max-width: 600px;
     color: var(--just-white);
 }
 
@@ -106,14 +106,14 @@ a {
     margin-left: 14px;
 }
 
-.exchangeContainer {
+.exchgContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 17px;
 }
 
-.exchangeContainer__image {
+.exchgContainer__image {
     background-image: url(../assets/img/Bitcoin.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -123,14 +123,16 @@ a {
     margin-bottom: 40px;
 }
 
-.exchangeContainer__title {
+.exchgContainer__title {
+    max-width: 500px;
     font-weight: bold;
     font-size: 2.4rem;
     text-align: center;
     margin-bottom: 24px;
 }
 
-.exchangeContainer__p {
+.exchgContainer__p {
+    max-width: 500px;
     font-size: 1.4rem;
     font-weight: 400;
     text-align: center;
@@ -138,20 +140,25 @@ a {
     margin-bottom: 48px;
 }
 
-.exchangeContainer__currencyTitle {
+.exchgContainer__currencyTitle {
     font-weight: bold;
     margin-bottom: 12px;
     font-size: 1.8rem;
     color: var(--bitcoin-orange);
 }
 
-.exchangeContainer__currencyTable {
+.exchgContainer__currencyTitle--blue {
+    color: var(--secondary-blue);
+}
+
+.exchgContainer__currencyTable {
     font-family: "Inter";
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--gray);
     background-color: var(--just-white);
     width: 75%;
+    max-width: 280px;
     border-radius: 8px;
     margin-bottom: 16px;
     display: grid;
@@ -159,17 +166,21 @@ a {
     grid-template-columns: 1fr auto auto;
 }
 
-.exchangeContainer__currencyName {
+.exchgContainer__currencyTable--Commission {
+    grid-template-columns: 1fr auto;
+}
+
+.exchgContainer__currencyName {
     margin: 11px;
 }
 
-.exchangeContainer__currencyPrice {
+.exchgContainer__currencyPrice {
     margin-left: 11px;
     margin-right: 11px;
     align-self: center;
 }
 
-.exchangeContainer__currencyDir {
+.exchgContainer__currencyDir {
     background-image: url(../assets/icons/trending-down.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -179,11 +190,11 @@ a {
     margin-right: 11px;
 }
 
-.exchangeContainer__currencyDir--up {
+.exchgContainer__currencyDir--up {
     background-image: url(../assets/icons/trending-up.svg);
 }
 
-.exchangeContainer__updateDate {
+.exchgContainer__updateDate {
     font-family: "Inter";
     font-size: 1.2rem;
     background-color: var(--soft-orange);
@@ -191,8 +202,12 @@ a {
     margin-bottom: 65px;
 }
 
-.exchangeContainer__updateDate--bold {
+.exchgContainer__updateDate--bold {
     font-weight: bold;
+}
+
+.exchgContainer__updateDate--blue {
+    background-color: var(--soft-blue);
 }
 
 .productDetail {
@@ -240,6 +255,7 @@ a {
 
 .productDetail__card {
     width: 90%;
+    max-width: 550px;
     background-color: var(--black);
     padding: 16px;
     margin-bottom: 16px;
@@ -330,7 +346,8 @@ a {
     scroll-snap-align: center;
     width: 70%;
     min-width: 190px;
-    margin-right: 20px;
+    max-width: 191px;
+    margin-right: 30px;
     background-color: var(--just-white);
     padding: 16px;
     display: flex;

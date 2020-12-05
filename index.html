@@ -9,6 +9,11 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="css/styles.css" />
+        <link
+            rel="stylesheet"
+            href="css/tablet.css"
+            media="(min-width: 680px)"
+        />
         <title>Batatabit</title>
     </head>
     <body>
@@ -33,38 +38,64 @@
             </a>
         </header>
         <main>
-            <section class="exchangeContainer">
-                <div class="exchangeContainer__image"></div>
-                <h2 class="exchangeContainer__title">
+            <section class="exchgContainer">
+                <div class="exchgContainer__image"></div>
+                <h2 class="exchgContainer__title">
                     Visibilizamos todas las tasas de cambio.
                 </h2>
-                <p class="exchangeContainer__p">
+                <p class="exchgContainer__p">
                     Traemos información en tiempo real de las casas de cambio y
                     las monedas más importantes del mundo.
                 </p>
 
-                <p class="exchangeContainer__currencyTitle">Moneda</p>
-                <section class="exchangeContainer__currencyTable">
-                    <div class="exchangeContainer__currencyName">Bitcoin</div>
-                    <div class="exchangeContainer__currencyPrice">$ 1.96</div>
-                    <div class="exchangeContainer__currencyDir"></div>
-                    <div class="exchangeContainer__currencyName">Ethereum</div>
-                    <div class="exchangeContainer__currencyPrice">$ 0.07</div>
+                <p class="exchgContainer__currencyTitle">Moneda</p>
+                <section class="exchgContainer__currencyTable">
+                    <div class="exchgContainer__currencyName">Bitcoin</div>
+                    <div class="exchgContainer__currencyPrice">$ 1.96</div>
+                    <div class="exchgContainer__currencyDir"></div>
+                    <div class="exchgContainer__currencyName">Ethereum</div>
+                    <div class="exchgContainer__currencyPrice">$ 0.07</div>
                     <div
-                        class="exchangeContainer__currencyDir exchangeContainer__currencyDir--up"
+                        class="exchgContainer__currencyDir exchgContainer__currencyDir--up"
                     ></div>
-                    <div class="exchangeContainer__currencyName">Ripple</div>
-                    <div class="exchangeContainer__currencyPrice">$ 2.15</div>
-                    <div class="exchangeContainer__currencyDir"></div>
-                    <div class="exchangeContainer__currencyName">Stellar</div>
-                    <div class="exchangeContainer__currencyPrice">$ 4.96</div>
-                    <div class="exchangeContainer__currencyDir"></div>
+                    <div class="exchgContainer__currencyName">Ripple</div>
+                    <div class="exchgContainer__currencyPrice">$ 2.15</div>
+                    <div class="exchgContainer__currencyDir"></div>
+                    <div class="exchgContainer__currencyName">Stellar</div>
+                    <div class="exchgContainer__currencyPrice">$ 4.96</div>
+                    <div class="exchgContainer__currencyDir"></div>
                 </section>
-                <p class="exchangeContainer__updateDate">
-                    <span class="exchangeContainer__updateDate--bold">
+                <p class="exchgContainer__updateDate">
+                    <span class="exchgContainer__updateDate--bold">
                         Actualizado:
                     </span>
                     19 Julio 23:45
+                </p>
+
+                <p
+                    class="exchgContainer__currencyTitle exchgContainer__currencyTitle--blue"
+                >
+                    Comision
+                </p>
+                <section
+                    class="exchgContainer__currencyTable exchgContainer__currencyTable--Commission"
+                >
+                    <div class="exchgContainer__currencyName">Bitcoin</div>
+                    <div class="exchgContainer__currencyPrice">$ 12.96</div>
+                    <div class="exchgContainer__currencyName">Ethereum</div>
+                    <div class="exchgContainer__currencyPrice">$ 13.07</div>
+                    <div class="exchgContainer__currencyName">Ripple</div>
+                    <div class="exchgContainer__currencyPrice">$ 13.15</div>
+                    <div class="exchgContainer__currencyName">Stellar</div>
+                    <div class="exchgContainer__currencyPrice">$ 14.96</div>
+                </section>
+                <p
+                    class="exchgContainer__updateDate exchgContainer__updateDate--blue"
+                >
+                    <span class="exchgContainer__updateDate--bold">
+                        Actualizado:
+                    </span>
+                    19 Julio 23:48
                 </p>
             </section>
             <section class="productDetail">
