@@ -1,5 +1,5 @@
-.bitcoinImgContainer{
-    padding-top: calc(5rem + 2vw);
+.productDetail__card {
+    height: 150px;
 }
 
 .exchgContainer__secondaryExchgContainer {

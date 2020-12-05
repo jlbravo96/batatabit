@@ -1,0 +1,11 @@
+.productDetail__cardsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productDetail__card {
+    width: 40%;
+    max-width: 600px;
+    margin: 20px;
+}

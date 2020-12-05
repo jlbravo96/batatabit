@@ -265,7 +265,6 @@ a {
 
 .productDetail__card {
     width: 90%;
-    max-width: 550px;
     background-color: var(--black);
     padding: 16px;
     margin-bottom: 16px;
